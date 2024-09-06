@@ -1,0 +1,6 @@
+#DISABLE DIRECTORY INDEXES
+Options -INDEXES
+
+<IfModule mod_autoindex.c>
+    Options -Indexes 
+</IfModule>
